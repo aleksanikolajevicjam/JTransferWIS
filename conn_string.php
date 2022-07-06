@@ -7,8 +7,8 @@ define("CMS_ONLY", true);
 if ($_SERVER['HTTP_HOST']=='wis.jamtransfer.com') define("LOCAL",false);
 else  define("LOCAL",true);
 if (LOCAL) {
-	define("ROOT_HOME", "http://localhost/jamtransfer/");
-	define("ROOT", "c:\\xampp\\htdocs\\jamtransfer");
+	define("ROOT", $_SERVER['DOCUMENT_ROOT'] . "/JTransferWIS/");
+	define("ROOT_HOME", 'https://'.$_SERVER['HTTP_HOST'] . "/JTransferWIS/");
 
 }	
 else {
