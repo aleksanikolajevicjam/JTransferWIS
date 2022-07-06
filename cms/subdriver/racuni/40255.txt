@@ -1,0 +1,22 @@
+!
+		Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+		81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+		Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 40255 - 01/01/2017
+
+!1Client: Dmitry  Ladikov-Roev
+Facture
+!!Transfert de: Geneva Airport
+a
+Val Thorens
+le 31/12/2016
+Montant acompte HT : 288.49 EUR
+TVA 10%	             : 28.85 EUR
+Montant acompte TTC: 317.34 EUR
+
+________________________________

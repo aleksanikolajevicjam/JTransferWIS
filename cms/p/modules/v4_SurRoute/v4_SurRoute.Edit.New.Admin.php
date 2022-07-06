@@ -1,0 +1,19 @@
+
+		<div id="v4_SurRouteWrapperNew" class="editFrame container-fluid" style="display:none">
+			<div id="inlineContentNew" class="row">
+				<div id="new_v4_SurRoute">
+					
+				</div>
+			</div>
+		</div>
+<?
+	define("READ_ONLY_FLD","");
+	$isNew = true;
+
+	require_once 'p/modules/v4_SurRoute/v4_SurRouteEditForm.Admin.php';
+	require_once 'p/modules/v4_SurRoute/v4_SurRoute_JS.php';
+?>
+<script>
+	new_v4_SurRoute();
+</script>
+	

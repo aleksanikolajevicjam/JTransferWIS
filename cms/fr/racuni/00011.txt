@@ -1,0 +1,360 @@
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Oksana Pryvidentseva
+Facture
+!!Transfert de: Cannes
+a
+Nice
+le 01/01/2018
+Montant acompte HT : 56.50 EUR
+TVA 10%	             : 5.65 EUR
+Montant acompte TTC: 62.15 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Jack Taplin
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 32.01 EUR
+TVA 10%	             : 3.20 EUR
+Montant acompte TTC: 35.21 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Peter Malpass
+Facture
+!!Transfert de: Menton
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: Martina Cangialosi
+Facture
+!!Transfert de: Villefranche sur Mer
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Denise Prince
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 29.65 EUR
+TVA 10%	             : 2.96 EUR
+Montant acompte TTC: 32.61 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Oksana Pryvidentseva
+Facture
+!!Transfert de: Cannes
+a
+Nice
+le 01/01/2018
+Montant acompte HT : 56.50 EUR
+TVA 10%	             : 5.65 EUR
+Montant acompte TTC: 62.15 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Jack Taplin
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 32.01 EUR
+TVA 10%	             : 3.20 EUR
+Montant acompte TTC: 35.21 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Catherine  Turner Smith
+Facture
+!!Transfert de: Saint Gervais, Savoie
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: maedbh doyle
+Facture
+!!Transfert de: Meribel
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 252.77 EUR
+TVA 10%	             : 25.28 EUR
+Montant acompte TTC: 278.05 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Edward James
+Facture
+!!Transfert de: Chamonix
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 140.98 EUR
+TVA 10%	             : 14.10 EUR
+Montant acompte TTC: 155.08 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Oksana Pryvidentseva
+Facture
+!!Transfert de: Cannes
+a
+Nice
+le 01/01/2018
+Montant acompte HT : 56.50 EUR
+TVA 10%	             : 5.65 EUR
+Montant acompte TTC: 62.15 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Jack Taplin
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 32.01 EUR
+TVA 10%	             : 3.20 EUR
+Montant acompte TTC: 35.21 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Catherine  Turner Smith
+Facture
+!!Transfert de: Saint Gervais, Savoie
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: maedbh doyle
+Facture
+!!Transfert de: Meribel
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 252.77 EUR
+TVA 10%	             : 25.28 EUR
+Montant acompte TTC: 278.05 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Edward James
+Facture
+!!Transfert de: Chamonix
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 140.98 EUR
+TVA 10%	             : 14.10 EUR
+Montant acompte TTC: 155.08 EUR
+
+________________________________
+ 
+ 

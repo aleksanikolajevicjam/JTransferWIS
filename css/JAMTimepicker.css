@@ -1,0 +1,124 @@
+.JAM-overlay * {
+	box-sizing: border-box;
+	cursor: default;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+/* TIMEPICKER KLASE */
+.JAM-overlay {
+	position: fixed; top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 9999 !important;
+}
+.JAM-picker {
+	display: inline-block;
+	position: relative; top: 50%; left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 230px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background: white;
+}
+.JAM-titlebar {
+	height: 60px;
+	color: white;
+	background: #D32F2F;
+}
+.JAM-title {
+	margin: 0;
+	padding-top: 5px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+.JAM-title * {
+	font-size: 60px;
+}
+.JAM-icon {
+	width: 20px;
+	height: 20px;
+	fill: white;
+}
+.JAM-icon:hover {
+	cursor: pointer;
+}
+.JAM-icon-title {
+	width: 50px;
+	height: 50px;
+	fill: white;
+}
+.JAM-closeButton, .JAM-clearButton {
+	position: absolute;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	padding-top: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+.JAM-clearButton {
+	left: 0;
+}
+.JAM-closeButton:hover, .JAM-clearButton:hover {
+	cursor: pointer;
+}
+.JAM-closeButton:hover .JAM-icon, .JAM-clearButton:hover .JAM-icon {
+	fill: #26A69A;
+}
+.JAM-pickerBody {
+	background: white;
+	color: black;
+	margin: 10px;
+}
+.JAM-pickerBody hr {
+	background-color: gray;
+}
+.JAM-hourLabels, .JAM-hourList, .JAM-minuteLabels, .JAM-minuteList {
+	display: inline-block;
+}
+.JAM-hourLabels, .JAM-minuteLabels {
+	width: 20%;
+}
+.JAM-hourList, .JAM-minuteList {
+	width: 80%;
+}
+.period {
+	display: block;
+	width: 100%;
+	line-height: 120px;
+	color: #555;
+}
+.field {
+	display: inline-block;
+	line-height: 40px;
+	min-height: 40px;
+	min-width: 40px;
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	text-align: center;
+	background-color: white;
+}
+.field:hover {
+	cursor: pointer;
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	color: white;
+	background-color: #26A69A;
+}
+.selected {
+	border-radius: 50%;
+	color: white;
+	background-color: #D32F2F;
+}
+.disabled {
+	color: rgba(0,0,0,0.2);
+}
+.disabled:hover {
+	color: rgba(0,0,0,0.2);
+	background: none;
+	cursor: default;
+}

@@ -1,0 +1,5 @@
+<? 
+	
+	define("ROOTPATH", getcwd().'/../../'); 
+
+

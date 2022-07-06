@@ -1,0 +1,22 @@
+!
+		Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+		81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+		Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 42104 - 06/01/2017
+
+!1Client: ANDRIY FILIMONTSEV
+Facture
+!!Transfert de: Geneva Airport
+a
+Valmorel
+le 06/01/2017
+Montant acompte HT : 221.90 EUR
+TVA 10%	             : 22.19 EUR
+Montant acompte TTC: 244.09 EUR
+
+________________________________

@@ -1,0 +1,22 @@
+!
+		Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+		81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+		Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 41617 - 15/01/2017
+
+!1Client: Andrey Kokin
+Facture
+!!Transfert de: Шамони
+a
+Женева Аэропорт
+le 15/01/2017
+Montant acompte HT : 156.84 EUR
+TVA 10%	             : 15.68 EUR
+Montant acompte TTC: 172.52 EUR
+
+________________________________

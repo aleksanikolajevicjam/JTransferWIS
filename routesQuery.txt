@@ -1,0 +1,8 @@
+SELECT `RouteID`,`FromID`  FROM `v4_routes` WHERE `FromID` in (Select TerminalID from v4_terminals)
+SELECT * FROM `v4_routes` WHERE `RouteID` not in (Select RouteID from v4_routesterminals)
+
+SELECT RouteID FROM `v4_driverterminals`,v4_RoutesTerminals WHERE `DriverID`=876 and v4_driverterminals.TerminalID=v4_routesterminals.TerminalID
+
+SELECT CONCAT(`RouteID`,'-',`VehicleTypeID`) as code FROM `v4_services` WHERE `OwnerID`=876
+
+SELECT CONCAT(`RouteID`,'-',`VehicleTypeID`) as code FROM v4_driverroutes,v4_vehicles where v4_driverroutes.OwnerID=v4_vehicles.OwnerID

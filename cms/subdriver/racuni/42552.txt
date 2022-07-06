@@ -1,0 +1,22 @@
+!
+		Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+		81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+		Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 42552 - 23/01/2017
+
+!1Client: WENGUANG SHAO
+Facture
+!!Transfert de: Chambery Airport
+a
+La Plagne
+le 22/01/2017
+Montant acompte HT : 180.15 EUR
+TVA 10%	             : 18.02 EUR
+Montant acompte TTC: 198.17 EUR
+
+________________________________

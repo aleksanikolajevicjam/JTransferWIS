@@ -1,0 +1,105 @@
+O transferima
+=============
+
+Transferi se kreiraju preko booking form-a.
+Postoji booking form za:
+- kupce
+- agente
+- free form - za nas - to je posebna vrsta i neme veze sa prehodnima
+
+Booking form za kupce vodi na online naplatu,
+booking form za agente nema online naplate, nego se fakturira.
+
+
+Što se sve mora pratiti kod transfera
+=====================================
+
+1.	je li booking doveden do kraja. Ako nije bilo bi dobro spremiti ono što je popunjeno
+	pa kupcu poslati mail da dovrši booking.
+	To znači da e-mail kupca treba dobiti što ranije u booking procesu.
+	
+2.	Ako je transfer prihvaćen, kupcu poslati podatke o vozaču - tel, mail...
+	Dalje treba pratit status transfera:
+	- je li potvrđen - u ovom slučaju je
+	- je li naknadno kanceliran:
+		- ako je, obavijestiti nas, kupca i vozača o tome mailom
+	- je li vozač naknadno odbio transfer
+		- ako je, obavijestiti nas, kupca i vozača o tome mailom
+	- je li transfer izvršen i sa kakvim rezultatom:
+		- uspješno
+		- no-show - putnik nije došao
+		- driver error - vozač je nešto zabrljao
+		
+3. Ako je vozač odbio transfer, treba:
+	- obavijestit nas i kupca
+	- pronaći drugog vozača:
+		- ažurirati novu cijenu transfera
+		- putniku poslati novi voucher
+		- naplatiti razliku u cijeni ili vratiti preplaćeni iznos
+		
+4. za uspješno obavljeni transfer:
+	- promijeniti status u završeni transfer
+	
+	- ako je vozač dužan nama platiti proviziju:
+		- ažurirati stanje potraživanja
+		- označiti transfer kao nenaplaćena provizija
+		- obavijestiti vozača o potraživanju - poslati nekakvu fakturu ili slično
+	
+	- ako smo mi dužni platiti vozača:
+		- ažurirati stanje duga
+		- označiti transfer kao dug prema vozaču
+		- obavijestiti nas i vozača o dugu i roku isplate
+
+5.	ako mi vozimo transfer:
+	- dodati ga na listu naših transfera
+	- označiti ga kao vlastiti transfer
+	- omogućiti izbor vozača
+	- omogućiti izbor vozila
+		
+	Ovo bi se moglo omogućiti svim vozačima, pogotovo na taxidu.
+
+
+Po ovome do sada bilo bi potrebno imati statuse:
+
+	TransferStatus - 	1 - aktivan
+						2 - izmijenjen
+						3 - canceliran
+						4 - izbrisan - ne prikazuje se na listi
+
+						
+	DriverStatus		0 - nema vozača
+						1 - obaviješten / odabran
+						2 - prihvaćen
+						3 - odbijen
+						4 - izvršen
+						5 - no-show
+						6 - driver error
+						
+	PaymentMethod		1 - online
+						2 - cash
+						3 - online + cash
+						4 - invoice
+						5 - ostalo
+	
+	
+	PaymentStatus		 0 - nije plaćen
+						 1 - plaćen online
+						 2 - plaćen u cashu
+						 3 - djelomično plaćen online
+						 4 - plaćen i cash dio
+						 5 - fakturirano vozaču ili agentu, nije plaćeno
+						 6 - plaćeno po fakturi 
+						 7 - poslana opomena
+						 8 - plaćeno po opomeni
+						 9 - kompenzirano
+						10 - tužba - čeka se rješenje
+						98 - plaćeno - na bilo kakav način, zaključeno
+						99 - nenaplativo
+
+	DriverPayment		1 - vozač nije plaćen 
+						2 - vozač plaćen
+						3 - kompenzirano
+											
+						
+						
+

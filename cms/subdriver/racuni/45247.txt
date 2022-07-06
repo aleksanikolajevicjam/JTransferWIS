@@ -1,0 +1,22 @@
+!
+		Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+		81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+		Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 45247 - 07/03/2017
+
+!1Client: Spyridon Michas
+Facture
+!!Transfert de: Geneva Airport
+a
+Megeve
+le 07/03/2017
+Montant acompte HT : 149.19 EUR
+TVA 10%	             : 14.92 EUR
+Montant acompte TTC: 164.11 EUR
+
+________________________________

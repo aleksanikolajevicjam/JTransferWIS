@@ -1,0 +1,5 @@
+<script>
+    selectCountry();
+
+
+</script>

@@ -1,0 +1,36 @@
+Jam transfers APIs
+
+Location FROM
+
+Parameter:
+qry First three or more characters of the name of the place
+Query sample: 
+https://cms.jamtransfer.com/API/getFromPlacesEdge.php?qry=Nice
+JSON Responce fields: 
+Place, ID, SEO
+
+
+Location TO
+
+Parameter:
+fID ID of FROM location - Selected location from JSON Responce ID field
+Query sample (fid=145797 for Nice airport):
+https://cms.jamtransfer.com/API/getToPlacesEdge.php?fID=145797
+JSON Responce fields: 
+Place, ID, SEO, Type
+
+
+GetCars
+
+Parameters:
+fID ID of FROM location - Selected location from JSON Responce ID field
+tID ID of TO location - Selected location from JSON Responce ID field
+PaxNo - Number of passengers 
+PickupDate - Pickup Date in (YYYY-mm-dd) format
+PickupTime - Pickup Date in (HH:ii) format
+RPickupDate - Return Pickup Date in (YYYY-mm-dd) format
+RPickupTime - Return Pickup Date in (HH:ii) format
+Query sample (fid=145797 for Nice airport, tID=248251 for Cannes, Pickup date 15.april.2022, Pickup time 15.00):
+https://cms.jamtransfer.com/API/getCars.php?fID=145797&tID=248251&PaxNo=3&PickupDate=2022-04-15&PickupTime=15:00
+JSON Responce fields: 
+RouteID, ServiceID, VehicleID, VehicleTypeID, VehicleName, VehicleImage, VehicleCapacity, VehicleClass, WiFi, FinalPrice

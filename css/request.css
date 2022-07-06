@@ -1,0 +1,1628 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #FFF;
+	color: #333;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-top: 0px;
+}
+
+#heading {
+	float: right;
+	text-align: right;
+	display: inline-block;
+}
+
+#heading strong {
+	display: block;
+	margin-bottom: 30px;
+}
+
+h1 {
+	color: #000;
+	font-size: 1.4em;
+	margin: 7px 0px;
+	padding: 0px;
+	float: left;
+}
+
+h2 {
+	color: #000;
+	font-size: 1.15em;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+h2.ime-gosta {
+	font-size: 1.85em;
+}
+.gost_poruka>h2.light {
+	color: #000;
+	font-size: 0.9em;
+}
+h3 {
+	color: #2980b9;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+hr {
+	border-color: #555;
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	padding: 10px 0;
+}
+
+a {
+	color: #777;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a#popust_kod {
+	color: #333;
+	text-decoration: underline;
+}
+
+
+
+.details-head {
+	text-align: center;
+	color: #000;
+}
+
+.details-info {
+	padding: 10px 0px;
+	border-top: 1px solid #DDD;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.table-legend {
+	border-bottom: 1px solid #ccc;
+}
+
+.table-legend-istaknuto {
+	color: #333;
+}
+
+.table-contents {}
+
+.cijena {
+	font-size: 1.55em;
+}
+
+.foot {
+	font-size: 0.85em;
+	color: #333;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* botuni za potvrde partnerima */
+
+#botun-potvrda {
+	display: inline-block;
+	cursor: pointer;
+	padding: 7px 15px 7px 15px;
+	text-align: center;
+	font-size: 1.4em;
+	/*font-weight: bold;*/
+	margin: 0 auto;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	behavior: url(/static/css/PIE.htc);
+	position: relative;
+}
+
+.da-ne-botun {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 20px 10px 20px;
+	min-width: 120px;
+	text-align: center;
+	font-size: 1.4em;
+	border: none;
+	background-color: #fff;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	behavior: url(/tmpl/css/PIE.htc);
+	position: relative;
+}
+
+#botun-da {
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+#botun-ne {
+	font-weight: bold;
+}
+
+#box-da,
+#box-ne {
+	display: none;
+	text-align: left;
+	padding: 30px 20px 30px 20px;
+}
+
+#botun-potvrda {
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+
+#botun-da {
+	color: #058AB6;
+	border: 1px solid #058AB6;
+}
+
+#botun-ne {
+	color: #E50000;
+	border: 1px solid #E50000;
+}
+
+#box-da strong,
+#box-ne strong {
+	color: #058AB6;
+}
+
+/* forma za kreditne kartice */
+
+#taxi-transfers-content2 {
+	float: left;
+	padding: 0 10px 30px;
+	width: 1140px;
+}
+
+#taxi-transfers-content-left2 {
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	width: 320px;
+}
+
+#taxi-transfers-content-right2 {
+	float: left;
+	text-align: justify;
+	width: 800px;
+}
+
+.botun-transfer,
+.botun-transfer-vozila,
+.botun-transfer-vozila-slide {
+	border: medium none;
+	border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+	margin-top: 25px;
+	padding: 4px 8px;
+	position: relative;
+	text-align: center;
+}
+
+.botun-transfer[disabled] {
+	cursor: default;
+}
+
+.dropDown {
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin: 5px 0 10px;
+	padding: 2px;
+	vertical-align: middle;
+	width: 200px;
+}
+
+.manji {
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin: 5px 0 10px;
+	padding: 2px;
+	vertical-align: middle;
+	width: 60px;
+}
+
+.securedata-left {
+	padding-bottom: 2px;
+}
+
+#ponuda-unos {
+	border: 1px solid black;
+	font-size: 1.25em;
+	height: 400px;
+	margin: 0 auto;
+	padding-left: 20px; 
+	padding-right: 20px;
+	padding-top: 0;
+}
+
+.kontakt-insert,
+.vozilo-insert {
+	font-size: 1.55em;
+	padding: 2px;
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	text-align: right;
+	width: 298px;
+	height: 30px;
+}
+
+.ponuda-insert {
+	font-size: 1.55em;
+	text-align: right;
+	width: 90px;
+	height: 31px;
+	border: none;
+}
+
+.znak_eura {
+	font-size: 1.55em;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#ponuda-sbmt {
+	background-color: #ffd926;
+	border: 1px solid #000;
+	color: #000;
+	cursor: pointer;
+	float: right;
+	margin-left: 30px;
+	margin-top: 35px;
+	padding: 6px 12px;
+	text-align: center;
+	width: 100px;
+}
+
+.info-label {
+	padding-right: 20px;
+}
+
+.info-details {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#cvc-pomoc {
+	margin-left: 100px;
+}
+
+.details-head {
+	border-top: 1px solid #777;
+}
+
+.subhead {
+	border-bottom: 1px solid #777;
+}
+
+.cijena {
+	color: #000;
+	font-size: 1.55em;
+	white-space: nowrap;
+}
+
+.cijena-label {
+	color: #000;
+}
+
+.table-legend {
+	color: #777;
+}
+
+.botun-transfer,
+.botun-transfer-vozila,
+.botun-transfer-vozila-slide {
+	background-color: #777;
+	color: #FFFFFF;
+}
+
+/* importano iz bootstrapa */
+
+.btn-success {
+	background-color: #5BB75B;
+	background-image: linear-gradient(to bottom, #62C462, #51A351);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	color: #FFFFFF;
+	border-image: none;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 4px 12px;
+	vertical-align: middle;
+}
+
+/* potvrda za gosta */
+
+hr.siva {
+	margin: 5px 0px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 0px;
+}
+
+#print-this-whole {
+	position: relative;
+	clear: both;
+	margin: auto;
+	box-sizing: border-box;
+	width: 245mm;
+}
+
+.logo_gost_poruka {
+	width: 51%;
+	height: 280px;
+	float: left;
+	position: relative;
+}
+
+.logo_gost_poruka>img {
+	margin-top: 12px;
+}
+
+#datum_potvrde {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	display: block;
+	float: left;
+	font-size: 13px;
+	padding: 5px 0;
+	position: relative;
+	width: 100%;
+}
+
+#datum_storniranja {
+	color: red;
+	display: block;
+	float: left;
+	padding: 5px 0;
+	position: relative;
+	width: 100%;
+}
+
+.potvrda_podatci {
+	width: 47%;
+	float: right;
+	position: relative;
+	height: 275px;
+	padding-top: 5px;
+}
+
+.gost_poruka {
+	margin-left: 0px;
+	margin-top: 25px;
+}
+
+#potvrda_br {
+	color: #000;
+	font-size: 1.40em;
+	margin: 0.4em 0;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+
+#gost_podaci {
+	float: left;
+	margin-top: 15px;
+	position: relative;
+}
+
+#edit_request {
+	float: right;
+	width: 47%;
+	padding-top: 2%;
+}
+
+#edit_request h2 {
+	text-align: center;
+	color: #c0392b;
+	width: 81%;
+	float: left;
+	font-size: 1.25em;
+}
+
+#edit_request a {
+	width: 19%;
+	float: left;
+}
+
+#edit_potvrda_text {
+	width: 60%;
+	float: left;
+	margin-top: 6%;
+}
+
+#edit_potvrda_text h2 {
+	color: #1b1b1b;
+	font-weight: bold;
+	font-size: 1.85em;
+}
+
+#edit_potvrda_text p {
+	margin-top: 5%;
+	line-height: 16px;
+}
+
+#edit_potvrda_checklist {
+	width: 40%;
+	float: left;
+}
+
+#edit_potvrda_checklist label {
+	cursor: pointer;
+}
+
+#edit_potvrda_checklist input {
+	margin-right: 5px;
+}
+
+#edit_potvrda_desc {
+	width: 100%;
+	margin-top: 5%;
+}
+
+#edit_potvrda_desc span {
+	float: right;
+	height: 64px;
+}
+
+#edit_potvrda_desc h3 {
+	color: #000;
+}
+
+#edit_potvrda_desc span p {
+	font-size: 2.45em;
+	display: inline-block;
+}
+
+#edit_potvrda_desc span a {
+	padding-left: 15px;
+}
+
+#edit_potvrda_desc span a img {
+	vertical-align: middle;
+	margin-top: -20px;
+}
+
+#edit_potvrda_desc textarea {
+	resize: vertical;
+	width: 100%;
+}
+
+#edit_potvrda_desc #submit_ticket {
+	background-color: #1b1b1b;
+	border: none;
+	color: white;
+	padding: 15px 42px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.15em;
+	margin-top: 5px;
+	cursor: pointer;
+	display: block;
+	margin: 20px auto;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
+
+#noscript_booking_message {
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15%;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	width: 65%;
+}
+
+#noscript_booking_message a {
+	color: red;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px){
+	#edit_potvrda_desc #submit_ticket{
+		width: 95%;
+	}	
+}
+
+.req_inv_button {
+	margin-left: 200px;
+	display: block;
+	width: 250px;
+}
+
+#edit_potvrda_logo {
+	float: right;
+}
+
+.form-inline {
+	margin-left: 35px;
+	margin-top: 12%;
+}
+
+#tablica {
+	clear: both;
+}
+
+.detalji_transfera {
+	clear: both;
+	min-height: 580px;
+	position: relative;
+}
+
+#podnozje {
+	clear: both;
+	margin-top: -15px;
+	width: 100%;
+	height: 130px;
+	font-size: 1.1em;
+}
+
+.podnozje_gost {
+	clear: both;
+	margin-top: -15px;
+	width: 100%;
+	height: 110px;
+	font-size: 1.1em;
+}
+
+.podnozje_partner {
+	clear: both;
+	margin-top: -15px;
+	width: 100%;
+	height: 110px;
+	font-size: 1.1em;
+}
+
+#footer-left {
+	width: 43%;
+	float: left;
+	text-align: right;
+}
+
+#footer-icon {
+	float: left;
+	height: 80px;
+	width: 15%;
+}
+
+#footer-icon-black {
+	background: url("../images/kufer/kufer_crni.png") no-repeat scroll 50% 10% rgba(0, 0, 0, 0);
+	float: left;
+	height: 80px;
+	width: 15%;
+}
+
+#footer-right {
+	width: 42%;
+	float: left;
+	text-align: left;
+}
+
+#footer-icon>img {
+	margin-left: 15px;
+}
+
+.detalji_lijevi_box {
+	float: left;
+	width: 47%;
+	padding-top: 5px;
+	position: relative;
+	display: block;
+	height: auto;
+}
+
+.detalji_desni_box {
+	float: right;
+	width: 47%;
+	padding-top: 5px;
+	position: relative;
+	display: block;
+}
+
+.info_icon {
+	background: url("../ar_static/img/svg/info_black.svg") no-repeat rgba(0, 0, 0, 0);
+	background-size: 15px;
+	height: 15px;
+	display: inline-block;
+	width: 20px;
+	margin-top: 5px;
+}
+
+.way_icon_euro {
+	background: url("../ar_static/img/svg/euro_black.svg") no-repeat rgba(0, 0, 0, 0);
+	background-size: 12px;
+	height: 12px;
+	width: 20px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.way_icon_one {
+	background: url("../ar_static/img/svg_blue/one-way-black.svg") no-repeat rgba(0, 0, 0, 0);
+	background-size: 15px;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.way_icon_return {
+	background: url("../ar_static/img/svg_blue/with-return-black.svg") no-repeat rgba(0, 0, 0, 0);
+	background-size: 15px;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.details-icon {
+	height: 1.2em;
+	display: inline-block;
+	margin-top: -0.2em;
+	margin-right: 0.5em;
+}
+
+#detalji_placanja {
+	margin-top: 10px;
+}
+
+.total_eur_info {
+	color: gray;
+	font-style: italic;
+}
+
+#broj_vozaca {
+	clear: both;
+	padding-left: 5px;
+	width: 100%;
+	font-size: 1.15em;
+}
+
+#napomena {
+	margin-left: 5px;
+	clear: both;
+}
+
+.otocni_transfer {
+	margin: 10px auto;
+	width: 684px;
+}
+
+.otocni_transfer a {
+	color: #0088cc;
+}
+
+.meeting_point {
+	width: 100%;
+	text-align: justify;
+	clear: both;
+	min-height: 100px;
+	height: auto;
+	float: left;
+	position: absolute;
+	bottom: 10px;
+}
+
+.vozac_i_napomena {
+	float: left;
+	clear: both;
+	height: 140px;
+	width: 100%;
+}
+
+.newsletter_consent {
+	width: 53%;
+	height: auto;
+	max-height: 350px;
+	float: left;
+}
+
+.mini_naslov {
+	border-bottom: 1px solid #777;
+	display: block;
+	margin-bottom: 1em;
+	padding-bottom: 10px;
+}
+
+.watermark-kartica {
+	font-size: 6.15em;
+	color: rgba(252, 32, 32, .25);
+	z-index: 2;
+	display: block;
+	position: absolute;
+	top: 18%;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	line-height: 100%;
+	margin-left: 30px;
+	border: 12px solid rgba(252, 32, 32, .25);
+	padding: 15px;
+	transform: rotate(-27deg);
+}
+
+.warning_kartica {
+	clear: both;
+	margin: 0 0 10px;
+	color: #b94a48;
+	font-size: 1.25em;
+	padding: 5px;
+	border: 1px solid #b94a48;
+	border-radius: 3px;
+	background-color: #FCEFEF;
+}
+
+.border_blue {
+	margin-top:20px;
+	border: 0px solid #000;
+	height: auto;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+.box_cijena_ponuda {
+	background-color: #ffd926;
+	color: #000;
+	font-size: 1.15em;
+	min-height: 27px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+	border-right: 1px solid #000;
+	float: left;
+}
+
+.partner_botun_potvrda_transfera {
+	font-size: 1.4em;
+	position: relative;
+	clear: both;
+	margin: 10px auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.duzi_box {
+	height: 315px;
+}
+
+.full_width {
+	width: 100%;
+}
+
+.cijena_potvrda_gost {
+	border-collapse: collapse;
+}
+
+.top-row {
+	display: table-row;
+	border-top: 1px solid #ccc;
+}
+
+/* kad korisnik ima netocne karticne podatke*/
+
+.border_blue {
+	border: 1px solid #2481be;
+	height: auto;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+h3.box {
+	background-color: #2481be;
+	color: #fff;
+	font-size: 1.15em;
+	min-height: 27px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+	width: 210px;
+	margin: 0px;
+}
+
+h3.box_ukupna_cijena {
+	background-color: #2481be;
+	color: #fff;
+	font-size: 1.3em;
+	min-height: 27px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	width: 92%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.potvrda_span_total_amount_eur {
+	float: right;
+	font-size: 1.1em;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+select[name="payment_method"] {
+	border: 0 none;
+	height: 35px;
+	width: 503px;
+	float: right;
+}
+
+select[name="card_type"] {
+	border: 1px solid #2481be;
+	height: 41px;
+	width: 100%;
+}
+
+input[name="card_holder"] {
+	height: 35px;
+	width: 97%;
+	border: 1px solid #2481be;
+}
+
+input[name="expiration_m"],
+input[name="expiration_y"] {
+	border: 1px solid #2481be;
+	height: 35px;
+	padding-left: 36px;
+	width: 55px;
+}
+
+input[name="cvcode"] {
+	border: 1px solid #2481be;
+	height: 35px;
+	width: 170px;
+}
+
+input[name="cnmb1"],
+input[name="cnmb2"],
+input[name="cnmb3"],
+input[name="cnmb4"] {
+	border: 1px solid #2481be;
+	font-size: 1.1em;
+	height: 35px;
+	width: 21%;
+	text-align: center;
+}
+
+.btn_potvrda {
+	margin-top: 30px;
+	width: 100%;
+	margin-right: 40px;
+	clear: left;
+	padding: 10px 30px;
+	font-weight: bold;
+	float: none;
+	border-radius: 0px;
+	display: block;
+	font-size: 1.15em;
+	text-transform: uppercase;
+}
+
+.flex_box {
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	display: flexbox;
+	display: -ms-flex;
+	justify-content: space-between;
+	justify-content: -webkit-space-between;
+	/* Safari 6.1+ */
+	justify-content: -moz-space-between;
+	/* Safari 6.1+ */
+	justify-content: -ms-space-between;
+	float: left;
+}
+
+.no_booking {
+	background-image: url(/static/images/dodatne_slike/no_booking.png);
+	background-repeat: no-repeat;
+	background-position: 100px 90px;
+}
+.sakrij_partner_nepotvrdjeno {
+	display: none;
+}
+
+#botun-gosti-pokupio,
+#botun-gosti-ostavio,
+#botun-gosti-potvrdio,
+#botun-nema-gostiju,
+#botun-vozaci-za-let,
+#botun-card-payment {
+	width: 40%;
+}
+
+.racun-partner-potvrda {
+	border-top: 3px dashed #000;
+	width: 100%;
+	margin-top: 2em;
+	padding-top: 2em;
+	margin-bottom: 2em;
+}
+.racun-partner-potvrda #racun_br {
+	border-bottom: 1px solid #006699;
+	color: #000;
+	display: block;
+	font-size: 1.7em;
+	margin: 0.25em 0;
+	padding-bottom: 0.25em;
+}
+.racun-partner-potvrda .connecto_podaci {
+	float: right;
+	width: auto;
+}
+.racun-partner-potvrda .partner_podaci {
+	margin-top: 1em;
+	margin-left: 2em;
+}
+.racun-partner-potvrda .storno_naslov {
+	float: none;
+}
+.racun-partner-potvrda .tablica_racun {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.racun-partner-potvrda .tablica_racun_pdv {
+	width: 100%;
+}
+.racun-partner-potvrda .tablica_racun_pdv th {
+	border-bottom: 1px dashed #BFBFBF;
+}
+.racun-partner-potvrda .tablica_racun_pdv .bottom-row {
+	border-top: 1px solid #BFBFBF;
+}
+.racun-partner-potvrda .gornji-red {
+	border-bottom: 1px solid #bbb;
+	border-top: 1px solid #bbb;
+}
+.centrirano {
+	text-align: center;
+}
+.bootstrap_crud_dialog .modal-body table {
+	margin: 0px;
+}
+.bootstrap_crud_dialog .modal-body table th,
+.bootstrap_crud_dialog .modal-body table td {
+	text-align: center;
+	vertical-align: middle;
+}
+.bootstrap_crud_dialog .modal-body table button.btn {
+	padding: 2px 6px;
+}
+.bootstrap_alert_dialog .modal-body {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+#mpay24_iframe {
+	border: none;
+	width: 100%;
+	display: block;
+	height: 129px;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.kartica_unosi #mpayframe p {
+	margin: 0px;
+}
+
+.kartica_unosi #form_block-credit_card.no_qr,
+.kartica_unosi .vlasnik_kartice {
+	margin: 0 auto;
+	float: none;
+}
+
+.kartica_unosi #form_block-credit_card {
+	margin: 0 auto;
+}
+
+.kartica_unosi .qr_code_monri {
+	float: right;
+	margin: -15px 55px 0 0;
+}
+
+.kartica_unosi .qr_code_datatrans {
+	float: right;
+	margin: 10px 55px 0 0;
+}
+
+.kartica_unosi .qr_code_mpay, .kartica_unosi .qr_code{
+	float: left;
+	margin: 15px 0 0 70px;
+}
+
+.kartica_unosi .dcp_preauthorized {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+#form_block-credit_card {
+	width: 70%;
+	float: left;
+	margin: 10px 0 30px 20px;
+}
+
+.mpay24_okvir,
+.datatrans_okvir {
+	width: 500px;
+}
+
+.kartica_unosi .vlasnik_kartice {
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+input[name='mpay24_holder'],
+input[name='datatrans_card_holder'] {
+	width: 100%;
+	box-sizing: border-box;
+	height: 38px;
+	padding: 6px 10px;
+	margin-bottom: 5px;
+}
+
+.kartica_unosi .error {
+	color: #ff0000;
+}
+
+.kartica_unosi .error input {
+	border: solid 1px #ff0000;
+}
+
+.black_luxury .form-payment_method .box,
+.black_luxury .box_ukupna_cijena {
+	background-color: #444;
+}
+
+.black_luxury .form-payment_method .border_blue,
+.black_luxury select,
+.black_luxury input {
+	border: 1px solid #000;
+}
+
+.black_luxury select[name="payment_method"] {
+	border: none;
+}
+
+.black_luxury .btn_potvrda,
+.black_luxury #i-cvc {
+	background-color: #000;
+}
+
+.black_luxury .no_booking {
+	background-image: url(/static/images/dodatne_slike/no_booking_black.png);
+}
+
+.table-info {
+	width: 100%;
+	margin: 1em 0;
+}
+.box-6 {
+	float: left;
+	width: 49%;
+	margin-left: 2%;
+	box-sizing: border-box;
+}
+.box-6:first-child {
+	margin-left: 0;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+#skp_message .ok {
+	color: blue;
+}
+#skp_message .error {
+	color: red;
+}
+#driver_card_payment_info,
+#driver_card_payment_info_warrning {
+	color: green;
+	display: inline-block;
+	margin-top: 10px;
+}
+#driver_card_payment_info_warrning {
+	color: red;
+}
+.potvrda_credit_card_warning {
+	color: red;
+	font-weight: bold;
+}
+.partner_notice {
+	border-radius: 10px;
+	width: 100%;
+	clear: both;
+	text-align: justify;
+	float: left;
+	height: auto;
+	min-height: 100px;
+	position: relative;
+}
+
+.partner_notice>.partner_notice_left {
+	background-color: #5FA3EE;
+	width: 2%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.partner_notice>.partner_notice_right {
+	width: 95%;
+	margin-left: 2%;
+	margin-right: 1%;
+	display: block;
+	padding: 10px;
+}
+
+.partner_notice > h3 {
+	color: #000;
+	font-size: 20px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.partner_notice_tbl {
+	width: auto;
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-style: hidden;
+	box-shadow: 0 0 0 1px #ccc;
+}
+
+.partner_notice_tbl>tbody>tr {
+	padding: 5px;
+}
+
+.partner_notice_tbl>tbody>tr:first-child {
+	border-bottom: 1px solid #ccc;
+}
+
+.partner_notice_tbl>tbody>tr>td:first-child {
+	width: 80%;
+	padding-left: 5px;
+}
+
+.partner_notice_tbl>tbody>tr>td:last-child {
+	width: 20%;
+	text-align: right;
+	padding-right: 5px;
+}
+@media screen and (max-width: 345px) {
+	#mpay24_iframe {
+		height: 190px;
+	}
+}
+@media screen and (max-width: 195mm) {
+	#print-this-whole {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	input[name="cnmb1"],
+	input[name="cnmb2"],
+	input[name="cnmb3"],
+	input[name="cnmb4"] {
+		width: 22.2%;
+	}
+	.razmak {
+		margin-right: 2.2%;
+		padding-right: 4.3%;
+	}
+
+	.potvrda_podatci {
+		clear: left;
+		width: 100%;
+	}
+	.logo_gost_poruka {
+		clear: right;
+		float: none;
+		width: 100%;
+	}
+	.detalji_lijevi_box {
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+	.detalji_desni_box {
+		width: 100%;
+		clear: both;
+		height: auto;
+		padding-top: 40px;
+	}
+	#podnozje {
+		font-size: 0.85em;
+		clear: both;
+		float: none;
+	}
+	.podnozje_gost {
+		font-size: 0.85em;
+		clear: both;
+		float: none;
+	}
+	.podnozje_partner {
+		font-size: 0.85em;
+		clear: both;
+		float: none;
+	}
+	#footer-right {
+		width: 32%;
+	}
+	#footer-icon {
+		width: 26%;
+	}
+	#footer-left {
+		width: 36%;
+	}
+	.otocni_transfer {
+		margin-top: 20px;
+		padding: 5px;
+		width: 95%;
+	}
+	.meeting_point {
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+	#napomena {
+		width: 100%;
+		clear: both;
+	}
+	#broj_vozaca {
+		width: 100%;
+		clear: both;
+	}
+	.vozac_i_napomena {
+		clear: both;
+		width: 100%;
+	}
+	.partner_botun_potvrda_transfera {
+		margin-bottom: 90px;
+		float: left;
+		font-weight: bold;
+		color: #000;
+		width: 100%;
+		text-align: center;
+	}
+	#main-container {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+	.form-payment_method {
+		width: 300px;
+		float: none;
+	}
+	.kartica_unosi {
+		width: 100%;
+		float: left;
+	}
+	.payment_stupac {
+		margin-top: 30px;
+		width: 100%;
+	}
+	.payment_details_stupac {
+		margin-top: 30px;
+		width: 100%;
+		border: none;
+		padding: 0px;
+	}
+	.card_code_stupac {
+		width: 100%;
+		margin-top: 30px;
+	}
+	input[name="card_holder"] {
+		width: 98%;
+	}
+	.sirina_botuna {
+		width: 100%;
+	}
+	.border_blue {
+		float: left;
+		margin-bottom: 20px;
+	}
+	h3.box {
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+		width: 96%;
+	}
+	h3.box_ukupna_cijena {
+		width: 95%;
+		padding-top: 5px;
+	}
+	select[name="payment_method"] {
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+	#ponuda-unos {
+		height: auto;
+		clear: both;
+		float: left;
+		padding-bottom: 10px;
+	}
+	.btn_potvrda {
+		width: 100%;
+	}
+	#botun-potvrda {
+		width: 100%;
+	}
+	.sakrij_mobilno {
+		display: none;
+	}
+	.detalji_lijevi_box.duzi_box {
+		padding-top: 0px;
+	}
+	.meeting_point {
+		position: relative;
+		padding-top: 40px;
+	}
+	#footer-icon>img {
+		width: 65px;
+	}
+	#botun-gosti-pokupio,
+	#botun-gosti-ostavio,
+	#botun-gosti-potvrdio,
+	#botun-nema-gostiju,
+	#botun-vozaci-za-let,
+	#botun-card-payment {
+		width: 90%;
+	}
+	#footer-icon>img {
+		margin-left: 0px;
+	}
+	#footer-icon {
+		display: block;
+		text-align: center;
+	}
+	.kartica_unosi #form_block-credit_card,
+	.kartica_unosi .vlasnik_kartice {
+		margin: 0 auto;
+		float: none;
+	}
+	.mpay24_okvir,
+	.datatrans_okvir {
+		width: 100%;
+		max-width: 500px;
+	}
+	.newsletter_consent,
+	#edit_request {
+		width: 100%;
+	}
+	#edit_potvrda_text,
+	#edit_potvrda_checklist,
+	#edit_potvrda_desc {
+		width: 95%;
+		padding: 0 2.5%;
+	}
+	.form-inline {
+		margin-left: 0;
+	}
+	#edit_potvrda_logo {
+		float: left;
+		margin-left: 2.5%;
+	}
+	.req_inv_button {
+		display: block;
+		width: 300px;
+		margin-left: 0;
+	}
+	.kartica_unosi .qr_code_monri {
+		float: none;
+		margin: 0 auto;
+		width: 18%;
+	}
+
+	.kartica_unosi .qr_code_datatrans {
+		float: none;
+		margin: 0 auto;
+		width: 16%;
+	}
+
+	.kartica_unosi .qr_code_mpay, .kartica_unosi .qr_code{
+		float: none;
+		margin: 0 auto;
+		width: 15%;
+	}
+	
+	.kartica_unosi .qr_code_text{
+		width: 100% !important;
+	}
+	
+	.kartica_unosi .dcp_preauthorized {
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+	}
+}
+
+/* omogucava da se u mozili prilikom printanja na papir printa background color & image */
+
+
+@media print {
+	* {
+		background:  !important;
+	}
+	body[data-type="partner-invoice"] {
+		font-size: 10px;
+		line-height: 1.25em;
+	}
+	a[href] {
+		content: none !important;
+	}
+	a[href]:after {
+		content: none !important;
+	}
+	#print-this-whole {
+		width: 100%;
+	}
+	.page-break {
+		display: block;
+		page-break-inside: avoid;
+	}
+	#datum_potvrde {
+		width: 100%;
+	}
+	.logo_gost_poruka {
+		float: left;
+		height: 275px;
+		padding-top: 5px;
+		position: relative;
+	}
+	.potvrda_podatci {
+		float: right;
+		height: 275px;
+		padding-top: 5px;
+		position: relative;
+	}
+	.partner_botun_potvrda_transfera {
+		margin-bottom: 10px;
+		padding-top: 0px;
+	}
+	#podnozje {
+		position: fixed;
+		display: block;
+		bottom: 10px;
+		width: 735px;
+		margin: auto;
+		left: 0%;
+		/* left i right obavezno, oponasa marginu auto kod footera prilikom printanja */
+		right: 0%;
+	}
+	.podnozje_gost {
+		position: fixed;
+		display: block;
+		bottom: 10px;
+		width: 735px;
+		margin: auto;
+		left: 0%;
+		/* left i right obavezno, oponasa marginu auto kod footera prilikom printanja */
+		right: 0%;
+	}
+	.podnozje_partner {
+		position: fixed;
+		display: block;
+		bottom: 10px;
+		width: 735px;
+		margin: auto;
+		left: 0%;
+		/* left i right obavezno, oponasa marginu auto kod footera prilikom printanja */
+		right: 0%;
+	}
+	.meeting_point {
+		margin-left: auto;
+		margin-right: auto;
+		width: 735px;
+		left: 0%;
+		/* left i right obavezno, oponasa marginu auto kod footera prilikom printanja */
+		right: 0%;
+		position: fixed;
+		bottom: 115px;
+	}
+	.sakrij_partner_nepotvrdjeno {
+		display: none;
+	}
+	#print-btn {
+		display: none;
+	}
+	#print-this-whole {
+		margin-top: 5px;
+	}
+	.tablica td {
+		padding: 5px;
+		border-bottom: 1px solid;
+		border-left: 1px solid;
+	}
+	.tablica th {
+		border-bottom: 1px solid;
+		background-color: #dedede;
+		padding: 5px;
+	}
+	.tablica {
+		width: 900px;
+		border-top: 1px solid;
+		border-left: 1px solid;
+		border-right: 1px solid;
+		text-align: left;
+	}
+	.no-print,
+	.no-print * {
+		display: none !important;
+	}
+	.mini_naslov {
+		padding-bottom: 0;
+	}
+	.mini_naslov h2 {
+		line-height: 250%;
+	}
+	.kontejner{
+		float: left;
+		padding: 0px 20px;
+	}
+	.partner_notice {
+		position: relative;
+		width: 100%;
+		display: block;
+	}
+
+	.partner_notice_tbl{
+		box-shadow: 0 0 0 1px #ccc !important;
+	}
+
+	.partner_notice>.partner_notice_left {
+		display: none;
+	}
+
+	.partner_notice>.partner_notice_right {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+}
+@page {
+	/* margine kod printanja stranice */
+	margin-left: 0cm;
+	margin-right: 0cm;
+	margin-top: 0.3cm;
+	margin-bottom: 0cm;
+}
+

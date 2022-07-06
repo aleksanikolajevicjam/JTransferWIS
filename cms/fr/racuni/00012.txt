@@ -1,0 +1,360 @@
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Jordi  Esplugas
+Facture
+!!Transfert de: Taradeau
+a
+Nice Airport 
+le 01/01/2018
+Montant acompte HT : 125.41 EUR
+TVA 10%	             : 12.54 EUR
+Montant acompte TTC: 137.95 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Max Urwantschky
+Facture
+!!Transfert de: Cannes
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Jess  Monaghan
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: Sophie Barr
+Facture
+!!Transfert de: Isola 2000
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 42 CHEMIN DU MOULIN CARRON - 69130 ECULLY
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Carla Goodrich
+Facture
+!!Transfert de: Cannes
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Peter Malpass
+Facture
+!!Transfert de: Menton
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Katy  Herbert
+Facture
+!!Transfert de: Avoriaz
+a
+Geneva
+le 01/01/2018
+Montant acompte HT : 160.00 EUR
+TVA 10%	             : 16.00 EUR
+Montant acompte TTC: 176.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Martina Cangialosi
+Facture
+!!Transfert de: Villefranche sur Mer
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: Denise Prince
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 29.65 EUR
+TVA 10%	             : 2.96 EUR
+Montant acompte TTC: 32.61 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Katy Herbert
+Facture
+!!Transfert de: Avoriaz
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 162.83 EUR
+TVA 10%	             : 16.28 EUR
+Montant acompte TTC: 179.11 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00001/2018 - 01/01/2018
+
+!1Client: Peter Malpass
+Facture
+!!Transfert de: Menton
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00002/2018 - 01/01/2018
+
+!1Client: Katy  Herbert
+Facture
+!!Transfert de: Avoriaz
+a
+Geneva
+le 01/01/2018
+Montant acompte HT : 160.00 EUR
+TVA 10%	             : 16.00 EUR
+Montant acompte TTC: 176.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00003/2018 - 01/01/2018
+
+!1Client: Martina Cangialosi
+Facture
+!!Transfert de: Villefranche sur Mer
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 0.00 EUR
+TVA 10%	             : 0.00 EUR
+Montant acompte TTC: 0.00 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00004/2018 - 01/01/2018
+
+!1Client: Denise Prince
+Facture
+!!Transfert de: Nice
+a
+Nice Airport
+le 01/01/2018
+Montant acompte HT : 29.65 EUR
+TVA 10%	             : 2.96 EUR
+Montant acompte TTC: 32.61 EUR
+
+________________________________
+ 
+ 
+!
+Etablissement secondaire 
+J A M GROUP D.O.O. SIRET
+
+81500492400032 Adresse 13 AVENUE BARTHÉLÉMY THIMONNIER - 69300 CALUIRE
+
+Activite Transports de personnes de moins de neuf voyageurs (4619B)
+
+!Reference : 
+Facture 00005/2018 - 01/01/2018
+
+!1Client: Katy Herbert
+Facture
+!!Transfert de: Avoriaz
+a
+Geneva Airport
+le 01/01/2018
+Montant acompte HT : 162.83 EUR
+TVA 10%	             : 16.28 EUR
+Montant acompte TTC: 179.11 EUR
+
+________________________________
+ 
+ 

@@ -1,0 +1,54 @@
+Kako stvari teku:
+
+index.php poziva
+init.php u kojem su osnovne postavke sessiona
+
+index.php poziva glavnu stranicu (template) za profil korisnika:
+	/t/agentMain.php - za agente
+	/t/dashboard.php - za vozace
+	/t/admin_dashboard.php - za administratore
+	
+agentMain.php u svakom panelu aktivira odredjeni dio aplikacije:
+		
+		Transfers panel - poziva activeTransfers.php (ovo bi trebalo biti univerzalno za sve profile!)
+		===============
+		
+		[1] activeTransfers.php postavlja filtere i search polje, i ovisno o potrebi prikazuje:
+			
+			parts/transferList.Driver.php - koji prikazuje listu svih transfera koji zadovoljavaju uvjete, ili
+			parts/transferEditForm.Driver.php - koji editira transfer.
+		
+			parts/transferEditForm.XXX.php - XXX oznacava profil korisnika (driver, admin, agent itd.)
+
+		
+		[2]	activeTransfers.php poziva javascript funkciju (iz cms.jquery.js) :
+			getAllTransfers(" WHERE DriverID ='" + $("#DriverID").val() + "' ");
+			
+		[3]	koja puni podatke tako sto putem ajax-a poziva:
+			
+				a/allTransfers.php?where='+where+'&status='+status+'&Search='+filter;
+				allTransfers.php vraca json array sa svim transferima prema zadanim kriterijima
+				
+				
+		[4]	podaci se onda prikazuju koristeci handlebars u:
+				parts/transferList.Driver.php - koji prikazuje listu svih transfera koji zadovoljavaju uvjete
+				
+		
+		[EDIT]	ako korisnik klikne Edit botun poziva se:
+
+				showOneTransfer(id) funkcija (iz cms.jquery.js) koja ajax-om zove:
+					a/getDbData.php?table=v4_OrderDetails&where=DetailsID='+id;
+					koja u json array-u vraca podatke za odabrani transfer (id)
+				
+					a onda parts/transferEditForm.Driver.php prikazuje Edit Form.
+				
+Znaci cijeli proces izgleda ovako:
+==================================
+
+	activeTransfers.php -> 	(js) getAllTransfers() -> a/allTransfers.php ->	parts/transferList.Driver.php
+
+	Ako je [EDIT], onda dalje ide:
+	
+		(js) showOneTransfer(id) -> a/getDbData.php -> parts/transferEditForm.Driver.php
+		
+		

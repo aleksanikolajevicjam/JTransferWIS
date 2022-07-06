@@ -1,0 +1,15 @@
+[08-Jan-2020 18:43:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataBaseMysql has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php on line 14
+[08-Jan-2020 18:43:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; v4_OrderDetails has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetails.class.php on line 14
+[08-Jan-2020 18:43:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; v4_OrderDetailsFR has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetailsFR.class.php on line 14
+[08-Jan-2020 18:44:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php:35
+Stack trace:
+#0 /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetails.class.php(197): DataBaseMysql->RunQuery('Select * from v...')
+#1 /home/jamtrans/laravel/public/cms.jamtransfer.com/cms/fr/updateToLastState.php(32): v4_OrderDetails->getRow('91730')
+#2 {main}
+  thrown in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php on line 35
+[08-Jan-2020 18:44:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataBaseMysql has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php on line 14
+[08-Jan-2020 18:44:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; v4_OrderDetails has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetails.class.php on line 14
+[08-Jan-2020 18:44:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; v4_OrderDetailsFR has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetailsFR.class.php on line 14
+[08-Jan-2020 18:44:21 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php on line 20
+[08-Jan-2020 18:53:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataBaseMysql has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/db.class.php on line 14
+[08-Jan-2020 18:53:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; v4_OrderDetailsFR has a deprecated constructor in /home/jamtrans/laravel/public/cms.jamtransfer.com/db/v4_OrderDetailsFR.class.php on line 14
